@@ -5,12 +5,12 @@
 /** @typedef {import('@adonisjs/framework/src/View')} View */
 
 /**
- * Resourceful controller for interacting with userteams
+ * Resourceful controller for interacting with invites
  */
-class UserTeamController {
+class InviteController {
   /**
-   * Show a list of all userteams.
-   * GET userteams
+   * Show a list of all invites.
+   * GET invites
    *
    * @param {object} ctx
    * @param {Request} ctx.request
@@ -21,8 +21,8 @@ class UserTeamController {
   }
 
   /**
-   * Render a form to be used for creating a new userteam.
-   * GET userteams/create
+   * Render a form to be used for creating a new invite.
+   * GET invites/create
    *
    * @param {object} ctx
    * @param {Request} ctx.request
@@ -33,8 +33,8 @@ class UserTeamController {
   }
 
   /**
-   * Create/save a new userteam.
-   * POST userteams
+   * Create/save a new invite.
+   * POST invites
    *
    * @param {object} ctx
    * @param {Request} ctx.request
@@ -44,8 +44,8 @@ class UserTeamController {
   }
 
   /**
-   * Display a single userteam.
-   * GET userteams/:id
+   * Display a single invite.
+   * GET invites/:id
    *
    * @param {object} ctx
    * @param {Request} ctx.request
@@ -56,8 +56,8 @@ class UserTeamController {
   }
 
   /**
-   * Render a form to update an existing userteam.
-   * GET userteams/:id/edit
+   * Render a form to update an existing invite.
+   * GET invites/:id/edit
    *
    * @param {object} ctx
    * @param {Request} ctx.request
@@ -68,8 +68,8 @@ class UserTeamController {
   }
 
   /**
-   * Update userteam details.
-   * PUT or PATCH userteams/:id
+   * Update invite details.
+   * PUT or PATCH invites/:id
    *
    * @param {object} ctx
    * @param {Request} ctx.request
@@ -79,8 +79,8 @@ class UserTeamController {
   }
 
   /**
-   * Delete a userteam with id.
-   * DELETE userteams/:id
+   * Delete a invite with id.
+   * DELETE invites/:id
    *
    * @param {object} ctx
    * @param {Request} ctx.request
@@ -90,4 +90,4 @@ class UserTeamController {
   }
 }
 
-module.exports = UserTeamController
+module.exports = InviteController
